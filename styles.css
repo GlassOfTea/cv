@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #e2e2e2;
+  color: black;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+
+  /* font: italic 25px sans-serif; */
+
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+h2 {
+  margin: 0px;
+}
+
+.bg-yellow {
+  background-color: #fff9dc;
+}
+
+.bg-green {
+  background-color: #e5ffe7;
+}
+
+.bg-red {
+  background-color: #ffe5e5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: aqua;
+}
+
+.avatar_img {
+  width: 8rem;
+  border-radius: 50%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+  margin: 5px 50px 5px 5px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.info {
+  display: flex;
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.card ol li {
+  list-style: none;
+  margin: 0;
+}
+
+.card ol {
+  padding: 0;
+}
+
+.social {
+  background: green;
+  padding: 10px;
+  border: 10px solid red;
+  margin: 40px 0px;
+  border-style: dotted
+}
+
+.table {
+  width: 100%;
+}
+
+.table tr {
+  border-color: black;
+  border: 20px;
+}
+
+.table tr td:nth-child(3) {
+  text-align: right;
+  color: red;
+}
+
+.table tr td:nth-child(2) {
+  text-align: center;
+}
+
+
+.link-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.link-list li {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+
+/* .model-box > div {
+  height: 200px;
+  width: 25%;
+  background: black;
+  border: 4px solid red;
+  float: left;
+  box-sizing: border-box;
+} */
